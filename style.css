@@ -3,6 +3,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -10,6 +11,14 @@
 
 body {
   background-color: #000000;
+  font-size: 62.5%;
+  width: 100%;
+}
+
+:root{
+  --black: #000000;
+  --red: #ED1C24;
+  --white: #ffffff;
 }
 
 .outLine {
@@ -21,10 +30,11 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .logo-img{
-    height: 90px;
+    height: 80px;
 }
 
 .list-style{
@@ -33,4 +43,47 @@ body {
 
 .gap-30{
     gap: 30px;
+}
+
+.font-size{
+  font-size: 0.9rem;
+}
+
+.btn-1{
+  border: none;
+  background-color: var(--black);
+  color: var(--white);
+  border: 1px solid var(--white);
+  border-radius: 30px;
+  width: 150px;
+  padding: 15px 0 15px 0;
+}
+
+
+.btn-2{
+  border: none;
+  display: flex;  
+  background-color: var(--red);
+  color: var(--white);
+  border: 1px solid var(--whi te);
+  border-radius: 30px;
+  align-items: center;
+  width: 150px;
+}
+
+.btn-2 .ph-arrow-circle-right {
+  margin-left: 10px;
+  font-size: 1.8rem;
+}
+
+.ph-fill{
+  fill: none;
+}
+
+.front-img{
+  width: 100%;
+}
+
+.btn1-2{
+  gap: 10px;
 }
