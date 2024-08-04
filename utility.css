@@ -1,15 +1,38 @@
-.p-t{
-    padding-top: 12px;
-  }
-  
-  .p-b{
-    padding-bottom: 12px;
-  }
-  
-  .p-r{
-    padding-right: 10px;
-  }
-  
-  .p-l{
-    padding-left: 10px;
-  }
+
+
+.p-t {
+  padding-top: 12px;
+}
+
+.p-b {
+  padding-bottom: 12px;
+}
+
+.p-r {
+  padding-right: 10px;
+}
+
+.p-l {
+  padding-left: 10px;
+}
+
+.logo-salt {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3.5rem;
+  line-height: 62px;
+  color: #FFFFFF;
+}
+
+h1{
+  font-family: butler;
+  font-size: 2.5rem;
+}
+
+.middle-image{
+  background-color: #ffffff;
+  height: 140px;
+  padding: 30px 20px 25px 20px;
+  border-radius: 4px;
+}
