@@ -16,9 +16,9 @@ body {
   color: var(--white);
 }
 
-:root{
+:root {
   --black: #000000;
-  --red: #ED1C24;
+  --red: #ed1c24;
   --white: #ffffff;
 }
 
@@ -27,30 +27,30 @@ body {
   color: #ffffff;
 }
 
-.dp-flex{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
+.dp-flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
-.logo-img{
-    height: 80px;
+.logo-img {
+  height: 80px;
 }
 
-.list-style{
-    list-style: none;
+.list-style {
+  list-style: none;
 }
 
-.gap-30{
-    gap: 30px;
+.gap-30 {
+  gap: 30px;
 }
 
-.font-size{
+.font-size {
   font-size: 0.9rem;
 }
 
-.btn-1{
+.btn-1 {
   border: none;
   background-color: var(--black);
   color: var(--white);
@@ -60,10 +60,9 @@ body {
   padding: 15px 0 15px 0;
 }
 
-
-.btn-2{
+.btn-2 {
   border: none;
-  display: flex;  
+  display: flex;
   background-color: var(--red);
   color: var(--white);
   border: 1px solid var(--whi te);
@@ -77,39 +76,39 @@ body {
   font-size: 1.8rem;
 }
 
-.ph-fill{
+.ph-fill {
   fill: none;
 }
 
-.front-img{
+.front-img {
   width: 100%;
 }
 
-.btn1-2{
+.btn1-2 {
   gap: 10px;
 }
 
-#orderNow{
+#orderNow {
   text-align: center;
   margin-top: 100px;
   font-size: 0.9rem;
 }
 
-p{
+p {
   text-align: center;
   margin-top: 15px;
   font-size: 1rem;
   color: #ffffff9f;
 }
 
-.middle-image0{
+.middle-image0 {
   display: flex;
   justify-content: center;
   gap: 30px;
   margin-top: 60px;
 }
 
-.btn-3{
+.btn-3 {
   border: none;
   background-color: var(--black);
   color: var(--white);
@@ -120,31 +119,52 @@ p{
   margin: 0 auto;
 }
 
-.dp-button{
+.orderNow-btn {
   display: flex;
   justify-content: center;
-  
+  gap: 110px;
+  margin-top: 30px;
 }
 
-.btn1{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.orderNow-btn button {
+  border: none;
+  background-color: var(--black);
+  color: var(--white);
+  border: 0.1rem solid var(--white);
+  border-radius: 30px;
+  width: 170px;
+  padding: 15px 0 15px 0;
 }
 
-.dp-button{
-  display: flex;
-  justify-content: center;
-  
+.container-2 {
+  position: relative;
+  background: #ffffff0f;
+  padding: 70px;
+  margin-top: 100px;
 }
 
-.dp-button2{
-  display: flex;
-  justify-content: center;
-  
+.image-S {
+  position: absolute;
+  right: 32px;
+  top: 32px;
 }
-.dp-button3{
-  display: flex;
-  justify-content: center;
-  
+
+.dp-inline {
+  text-align: center;
+  /* margin-top: 100px; Adjust this value to move the text down */
+}
+
+.dp-inline h2 {
+  text-align: center;
+  margin-bottom: 8px;
+  font-family: "butler";
+  font-style: normal;
+  font-size: 48px;
+  line-height: 60px;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+
+p {
+  margin: 0; /* Reset margins for p */
 }
