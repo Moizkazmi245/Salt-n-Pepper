@@ -168,3 +168,78 @@ p {
 p {
   margin: 0; /* Reset margins for p */
 }
+
+.islamabad {
+  font-family: 'apercu';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 20px;
+  letter-spacing: 0.48em;
+  text-transform: uppercase;
+  color: #ED1C24;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.islamabadSP h3 {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 38px;
+  font-size: 2rem;
+  color: #FFFFFF;
+  /* margin-top: 20px; */
+  margin-bottom: 24px;
+}
+
+.islamabadSP {
+  padding: 40px;
+  margin-top: 20px;
+}
+
+.islamabadSP h3 span {
+  font-size: 2rem;
+}
+
+
+.btn-2-4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  border: 1px solid var(--white);
+  border-radius: 50px;
+  background-color: transparent;
+  color: #fff;
+  cursor: pointer;
+  width: 180px;
+  transition: background-color 0.3s ease;
+  font-family: 'Poppins';
+  flex-wrap: wrap;
+}
+
+.btn-2-4 .ph-arrow-circle-right {
+  margin-left: 10px;
+  font-size: 1.8rem;
+}
+
+.btn-4 {
+  margin-top: 50px;
+}
+
+.image-1 {
+  position: relative;
+  width: 100%;
+  margin-top: 50px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.middle-1{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.btn-2-4:hover{
+  background-color: var(--red);
+}
