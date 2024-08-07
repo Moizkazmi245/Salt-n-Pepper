@@ -166,11 +166,12 @@ p {
 }
 
 p {
-  margin: 0; /* Reset margins for p */
+  margin: 0;
+  /* Reset margins for p */
 }
 
 .islamabad {
-  font-family: 'apercu';
+  /* font-family: 'apercu'; */
   font-style: normal;
   font-weight: 500;
   font-size: 1rem;
@@ -193,7 +194,7 @@ p {
 }
 
 .islamabadSP {
-  padding: 40px;
+  padding: 20px;
   margin-top: 20px;
 }
 
@@ -235,11 +236,166 @@ p {
   padding-left: 15px;
 }
 
-.middle-1{
+.middle-1 {
   display: grid;
   grid-template-columns: 50% 50%;
 }
 
-.btn-2-4:hover{
+.btn-2-4:hover {
   background-color: var(--red);
+}
+
+.image-2 {
+  position: relative;
+  width: 100%;
+  margin-top: 50px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.faislabad {
+  /* font-family: 'apercu'; */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 20px;
+  letter-spacing: 0.48em;
+  text-transform: uppercase;
+  color: #ED1C24;
+  margin-bottom: 8px;
+  display: block;
+  margin-top: 50px;
+}
+
+.faislabadSP h3 {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 38px;
+  font-size: 2rem;
+  color: #FFFFFF;
+  /* margin-top: 20px; */
+  margin-bottom: 24px;
+}
+
+.faislabadSP h3 span {
+  font-size: 2rem;
+}
+
+
+.bahawalpur {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 20px;
+  letter-spacing: 0.48em;
+  text-transform: uppercase;
+  color: #ED1C24;
+  margin-bottom: 8px;
+  display: block;
+  margin-top: 50px;
+}
+
+.bahawalpurSP h3 {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 38px;
+  font-size: 2rem;
+  color: #FFFFFF;
+  /* margin-top: 20px; */
+  margin-bottom: 24px;
+}
+
+.bahawalpurSP h3 span {
+  font-size: 2rem;
+}
+
+.bahawalpurSP {
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.image-3 {
+  position: relative;
+  width: 100%;
+  margin-top: 90px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.container-3 {
+  width: 100%;
+  background-color: var(--black);
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.image-P {
+  position: absolute;
+  left: 33px;
+  top: 40px;
+}
+
+.second-section {
+  text-align: center;
+  padding: 70px 0px 38px;
+  position: relative;
+}
+
+.dp-inline-1 {
+  text-align: center;
+  /* margin-top: 100px; Adjust this value to move the text down */
+}
+
+.dp-inline-1 h1 {
+  text-align: center;
+  font-weight: 900;
+  margin-bottom: 8px;
+  font-family: "butler";
+  font-style: normal;
+  font-size: 2.8rem;
+  line-height: 60px;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+
+.images-0{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  position: absolute;
+  margin-left: 108px;
+  margin-top: 20px;
+}
+
+.image-EM img{
+  width: 100%;
+  height: 250px;
+}
+
+.emporium-Mall{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.8rem;
+  line-height: 20px;
+  letter-spacing: 0.48em;
+  text-transform: uppercase;
+  color: #ED1C24;
+  margin-bottom: 8px;
+  display: block;
+  margin-top: 15px;
+}
+
+h3{
+  font-size: 1.5rem;
+}
+
+.logo-salt-1{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 62px;
+  color: #FFFFFF;
+  font-size: 1.5rem;
 }
