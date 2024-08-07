@@ -265,6 +265,11 @@ p {
   margin-bottom: 8px;
   display: block;
   margin-top: 50px;
+  /* margin-left: ; */
+}
+
+.faislabadSP{
+  margin-left: 20px;
 }
 
 .faislabadSP h3 {
@@ -275,6 +280,7 @@ p {
   color: #FFFFFF;
   /* margin-top: 20px; */
   margin-bottom: 24px;
+  /* margin-left: 10px; */
 }
 
 .faislabadSP h3 span {
@@ -367,6 +373,7 @@ p {
   position: absolute;
   margin-left: 108px;
   margin-top: 20px;
+  
 }
 
 .image-EM img{
@@ -398,4 +405,54 @@ h3{
   line-height: 62px;
   color: #FFFFFF;
   font-size: 1.5rem;
+  text-align: center;
+}
+
+.gujrawala-Mall{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.8rem;
+  line-height: 20px;
+  letter-spacing: 0.48em;
+  text-transform: uppercase;
+  color: #ED1C24;
+  margin-bottom: 8px;
+  display: block;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.image-sargodha p{
+  font-size: 0.9rem;
+}
+
+.btn0-2{
+  /* margin-top: 40px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  border: 0.1rem solid var(--white);
+  border-radius: 50px;
+  background-color: transparent;
+  color: #fff;
+  cursor: pointer;
+  width: 180px;
+  transition: background-color 0.3s ease;
+  font-family: 'Poppins';
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.btn0-2 .ph-arrow-circle-up-right {
+  margin-left: 10px;
+  font-size: 1.8rem;
+}
+
+.button1{
+  margin-top: 40px;
+}
+
+.btn0-2:hover{
+  background-color: var(--red);
 }
