@@ -217,6 +217,7 @@ p {
   transition: background-color 0.3s ease;
   font-family: 'Poppins';
   flex-wrap: wrap;
+  /* position: relative; */
 }
 
 .btn-2-4 .ph-arrow-circle-right {
@@ -335,6 +336,8 @@ p {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  position: absolute;
+
 }
 
 .image-P {
@@ -366,20 +369,42 @@ p {
   margin-bottom: 8px;
 }
 
-.images-0{
+/* .images-0{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
+  gap: 10px;
   position: absolute;
-  margin-left: 108px;
   margin-top: 20px;
+  padding-left: 40px;
+  padding-right: 90px;
+
   
+} */
+
+.images-0 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px; /* Increase gap if necessary */
+  padding: 60px;
 }
 
-.image-EM img{
+.images-0 img {
   width: 100%;
-  height: 250px;
+  height: auto;
+  object-fit: cover;
 }
+
+.images-0 div {
+  margin: 0;
+  padding: 10px;
+}
+
+
+
+  /* .image-EM img{
+    width: 90%;
+    height: 250px;
+  } */
 
 .emporium-Mall{
   font-style: normal;
@@ -396,6 +421,7 @@ p {
 
 h3{
   font-size: 1.5rem;
+  margin-top: -3px;
 }
 
 .logo-salt-1{
@@ -416,14 +442,14 @@ h3{
   letter-spacing: 0.48em;
   text-transform: uppercase;
   color: #ED1C24;
-  margin-bottom: 8px;
+  /* margin-bottom: 8px; */
   display: block;
   margin-top: 15px;
   text-align: center;
 }
 
 .image-sargodha p{
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 
 .btn0-2{
@@ -442,6 +468,7 @@ h3{
   font-family: 'Poppins';
   flex-wrap: wrap;
   margin: 0 auto;
+  /* position: fixed; */
 }
 
 .btn0-2 .ph-arrow-circle-up-right {
@@ -455,4 +482,60 @@ h3{
 
 .btn0-2:hover{
   background-color: var(--red);
+}
+
+.image-lahore img{
+  width: 100%;
+  height: 240px;
+  border: none;
+  /* margin-left: -10px; */
+}
+
+.image-lahore p{
+  font-size: 0.8rem;
+
+}
+
+.image-Gujrat img{
+  width: 90%;
+  height: 250px;
+
+}
+
+.image-Gujrat p{
+  font-size: 0.8rem;
+
+}
+
+.image-Sahiwal img{
+  width: 90%;
+  height: 250px;
+
+}
+
+.image-Sahiwal p{
+  font-size: 0.8rem;
+
+}
+
+
+
+.image-EM  p{
+  font-size: 0.8rem;
+}
+
+.image-Gujra p{
+  font-size: 0.8rem;
+
+}
+
+.snp-right-side-second{
+    position: absolute;
+    z-index: 3;
+    right: 0px;
+    bottom: -50px;
+}
+
+.image-DHA p{
+  font-size: 0.8rem;
 }
