@@ -20,6 +20,7 @@ body {
   --black: #000000;
   --red: #ed1c24;
   --white: #ffffff;
+  --gray: #ffffff0f;
 }
 
 .outLine {
@@ -388,8 +389,13 @@ p {
   padding: 60px;
 } */
 
+/* .images-0{
+  position: relative;
+} */
+
 .dp-flex-images{
   display: flex !important;
+  /* gap: 10px; */
 }
 
 .justify-content-evenly{
@@ -400,9 +406,6 @@ p {
   flex-wrap: wrap !important;
 }
 
-.gap{
-  /* gap: 50px !important; */
-}
 
 .images-0 {
   width: 100%;
@@ -412,7 +415,7 @@ p {
 
 .images-0 div {
   margin: 0;
-  padding: 10px;
+  /* padding: 10px; */
 }
 
 
@@ -513,7 +516,7 @@ h3{
 }
 
 .image-Gujrat img{
-  width: 90%;
+  width: 100%;
   height: 250px;
 
 }
@@ -546,12 +549,22 @@ h3{
 }
 
 .snp-right-side-second{
-    position: absolute;
-    z-index: 3;
-    right: 0px;
-    bottom: -50px;
+  position: absolute;
+  right: 0px;
+  bottom: -50px;
+  top: 1500px;
+    /* bottom: 50px; */
 }
 
 .image-DHA p{
   font-size: 0.8rem;
+}
+
+
+.text-align{
+  text-align: center !important;
+}
+
+.mt-3{
+  margin-top: 3rem !important;
 }
